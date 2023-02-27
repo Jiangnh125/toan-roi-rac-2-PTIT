@@ -19,7 +19,8 @@ void ReVisited(){
         visited[i] = false;
 }
 
-int TestLienThong(){
+// test so thanh phan lien thong > 1 ?
+int TestSoLienThong(){
     for (int i = 1; i <= n; i++){
         if (!visited[i]) return 1;
     }
@@ -38,7 +39,7 @@ int main(){
         visited[i] = true;
         DFS(1);
         // cout << TestLienThong() << " ";
-        if (TestLienThong())  
+        if (TestSoLienThong())  
             cout << i << " ";
         ReVisited();
     }
