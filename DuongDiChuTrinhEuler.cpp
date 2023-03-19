@@ -1,6 +1,8 @@
 // dau vao la ma tran ke vo huong
 
-#include<bits/stdc++.h>
+#include<iostream>
+#include<stack>
+#include<vector>
 using namespace std;
 
 int n, k, a[1001][1001];

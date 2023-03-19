@@ -1,5 +1,5 @@
-
-#include <bits/stdc++.h>
+#include <iostream>
+#include<stack>
 using namespace std;
 
 int n;
